@@ -70,7 +70,7 @@ Assert will have two or three arguments. The first argument is item to be tested
 -1. The second argument must match that value, in this case a -1 to pass. The third argument is optional and will print
 out a helpful message if the test fails.  
 
-# running the same code in Node.js
+# Running the same code in Node.js in the test
 $ node
 
 Welcome to Node.js v15.4.0.
@@ -87,11 +87,16 @@ This is a very simply test. That's the point of mocha and most other testing too
 Make up for it with large numbers of individual tests. 
 
 
+# I added another test called math.test.js in the test folder
+
+mocha looks for files with the name test in them and runs them automatically
+Here I am running two separate tests
+
 > mocha
 
   Arithmetic
     ✓ should test if 6 + 7  = 13
-    ✓ should test if 6*7 = 42
+    ✓ should test if 6 * 7 = 42
 
   Array
     #indexOf()

@@ -6,7 +6,7 @@ describe('Arithmetic', function() {
       assert.equal(6+7, 13);
     });
     // Test Two: A string explanation of what we're testing
-    it('should test if 6*7 = 42', function(){
+    it('should test if 6 * 7 = 42', function(){
       // Test:  6 * 7  should equal 42
       assert.equal(6*7, 42);
     });
