@@ -72,7 +72,9 @@ out a helpful message if the test fails.
 
 # running the same code in Node.js
 $ node
+
 Welcome to Node.js v15.4.0.
+
  > const ar = [1,2,3]
 
  > ar.indexOf(4)
