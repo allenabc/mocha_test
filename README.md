@@ -79,4 +79,16 @@ Welcome to Node.js v15.4.0.
 # Make up for it with large numbers of individual tests. 
 
 
+> mocha
+
+  Arithmetic
+    ✓ should test if 6 + 7  = 13
+    ✓ should test if 6*7 = 42
+
+  Array
+    #indexOf()
+      ✓ should return -1 when the value is not present
+
+
+  3 passing (3ms)
 
