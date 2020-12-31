@@ -61,6 +61,7 @@ npm checks the package.json file and knows to run mocha when asked to "test"
 Bring in the assert library to make an assert. assert has over a hundred options to check for in this case "equal"
 
 describe is your description of what the test is about 
+
 it( begins the actual test. In this case, an array [1,2,3] with a check for the number 4. 
 
 There is no four so expect to see a -1 returned.
@@ -85,6 +86,8 @@ Welcome to Node.js v15.4.0.
 
 This is a very simply test. That's the point of mocha and most other testing tools. Test very small parts of the code at a time. 
 Make up for it with large numbers of individual tests. 
+
+# Small tests are better one reason being, if they fail you can go right to the component that failed without searching around
 
 
 # I added another test called math.test.js in the test folder
