@@ -52,7 +52,7 @@ $ npm test
   1 passing (3ms)
 
 $ 
-#####################################################################################
+
 
 # npm checks the package.json file and knows to run mocha when asked to "test"
 
