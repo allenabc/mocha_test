@@ -73,10 +73,12 @@ out a helpful message if the test fails.
 # running the same code in Node.js
 $ node
 Welcome to Node.js v15.4.0.
-> const ar = [1,2,3]
-> ar.indexOf(4)
+ > const ar = [1,2,3]
+
+ > ar.indexOf(4)
+
 -1
-> 
+ > 
 
 
 This is a very simply test. That's the point of mocha and most other testing tools. Test very small parts of the code at a time. 
