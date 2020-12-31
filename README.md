@@ -59,14 +59,18 @@ npm checks the package.json file and knows to run mocha when asked to "test"
 # Elements of a typical mocha test
 
 Bring in the assert library to make an assert. assert has over a hundred options to check for in this case "equal"
+
 describe is your description of what the test is about 
 it( begins the actual test. In this case, an array [1,2,3] with a check for the number 4. 
-  There is no four so expect to see a -1 returned.
-assert will have two or three arguments. The first argument is item to be tested. The first item will return a value, in this case,
+
+There is no four so expect to see a -1 returned.
+
+# assert 
+Assert will have two or three arguments. The first argument is item to be tested. The first item will return a value, in this case,
 -1. The second argument must match that value, in this case a -1 to pass. The third argument is optional and will print
 out a helpful message if the test fails.  
 
-# running the same test in Node.js
+# running the same code in Node.js
 $ node
 Welcome to Node.js v15.4.0.
 > const ar = [1,2,3]
