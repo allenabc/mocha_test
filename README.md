@@ -90,9 +90,10 @@ Make up for it with large numbers of individual tests.
 # Small tests are better one reason being, if they fail you can go right to the component that failed without searching around
 
 
-# I added another test called math.test.js in the test folder
+I added another test called math.test.js in the test folder
 
-mocha looks for files with the name test in them and runs them automatically
+# mocha looks for files with the name test in them and runs them automatically
+
 Here I am running two separate tests
 
 > mocha
