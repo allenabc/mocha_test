@@ -94,7 +94,7 @@ I added another test called math.test.js in the test folder
 
 # mocha looks for files with the name test in them and runs them automatically
 
-Here I am running two separate tests
+Here I am running two separate test files and a total of three tests.
 
 > mocha
 
